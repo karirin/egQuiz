@@ -19,7 +19,6 @@ struct ModalExplanationView: View {
         var question: String
         var userAnswer: String
         var correctAnswer: String
-        var explanation: String
         @Binding var currentQuizIndex: Int
         @Binding var userFlag: Int
         var pauseTimer: () -> Void
@@ -118,21 +117,6 @@ struct ModalExplanationView: View {
                         HStack {
                             Text("\(correctAnswer)")
                                 .foregroundColor(Color("fontGray"))
-                            Spacer()
-                        }
-                        HStack{
-                            Text(" ")
-                                .background(.gray)
-                                .frame(width:10,height: 20)
-                            Text("解説")
-                                .foregroundColor(Color("fontGray"))
-                            Spacer()
-                        }
-                        HStack {
-                            ScrollView{
-                                Text("\(explanation)")
-                                    .foregroundColor(Color("fontGray"))
-                            }
                             Spacer()
                         }
                         

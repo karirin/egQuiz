@@ -270,7 +270,7 @@ class AuthManager: ObservableObject {
         let userRef = Database.database().reference().child("users").child(userId)
         
         // 選択されたアバターの作成
-        let selectedAvatar = Avatar(name: self.selectedAvatar?.name ?? "ネッキー", attack: 20, health: 20, usedFlag: 1, count: 1)
+        let selectedAvatar = Avatar(name: self.selectedAvatar?.name ?? "ラビン", attack: 20, health: 20, usedFlag: 1, count: 1)
         
         // ユーザーデータを設定（アバターデータは後で設定）
         let userData: [String: Any] = [

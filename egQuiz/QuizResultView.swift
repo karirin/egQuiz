@@ -11,7 +11,7 @@ struct QuizResult {
     var question: String
     var userAnswer: String
     var correctAnswer: String
-    var explanation: String
+    var explanation: String!
     var isCorrect: Bool  // 正解か不正解かを示すプロパティ
     var showExplanation: Bool = false
 }
@@ -183,7 +183,6 @@ struct QuizResultView: View {
                                     Text("あなたの回答: \(result.userAnswer)")
 //                                    Text("あなたの回答")
                                     Text("正解: \(result.correctAnswer)")
-                                    Text("解説: \(result.explanation)")
                                 }.padding()
                                     .frame(maxWidth:.infinity,alignment: .leading)
                                 Divider()

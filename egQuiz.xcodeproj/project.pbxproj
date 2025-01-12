@@ -109,6 +109,7 @@
 		189F94EC2D321AE70066E6CF /* HelpModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94EB2D321AE70066E6CF /* HelpModalView.swift */; };
 		189F94EE2D321B120066E6CF /* ChangeNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94ED2D321B120066E6CF /* ChangeNameView.swift */; };
 		189F94F02D321B5A0066E6CF /* TutorialModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94EF2D321B5A0066E6CF /* TutorialModalView.swift */; };
+		189F94F22D33664F0066E6CF /* InterstitialStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94F12D33664F0066E6CF /* InterstitialStory.swift */; };
 		189FEA362B94EA86005C91B9 /* SettingITView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FEA352B94EA86005C91B9 /* SettingITView.swift */; };
 		5B9F78F661C4F84303D4FFE7 /* Pods_egQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91A26AE2AA111E1625FEBAF /* Pods_egQuiz.framework */; };
 /* End PBXBuildFile section */
@@ -239,6 +240,7 @@
 		189F94EB2D321AE70066E6CF /* HelpModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpModalView.swift; sourceTree = "<group>"; };
 		189F94ED2D321B120066E6CF /* ChangeNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNameView.swift; sourceTree = "<group>"; };
 		189F94EF2D321B5A0066E6CF /* TutorialModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialModalView.swift; sourceTree = "<group>"; };
+		189F94F12D33664F0066E6CF /* InterstitialStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialStory.swift; sourceTree = "<group>"; };
 		189FEA352B94EA86005C91B9 /* SettingITView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingITView.swift; sourceTree = "<group>"; };
 		A91A26AE2AA111E1625FEBAF /* Pods_egQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1F0F58BD1201E2101FCC07 /* Pods-egQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egQuiz.release.xcconfig"; path = "Target Support Files/Pods-egQuiz/Pods-egQuiz.release.xcconfig"; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 				1806B5D02D313C4800149CFC /* IconPickerView.swift */,
 				1806B5E32D313C4800149CFC /* IllustratedView.swift */,
 				1806B5CE2D313C4800149CFC /* Interstitial.swift */,
+				189F94F12D33664F0066E6CF /* InterstitialStory.swift */,
 				1806B5DE2D313C4800149CFC /* LoadingView.swift */,
 				1806B5E42D313C4800149CFC /* LoginModalView.swift */,
 				1806B5CA2D313C4800149CFC /* ModalExplanationView.swift */,
@@ -655,6 +658,7 @@
 				1806B5FA2D313C4900149CFC /* CustomScrollView.swift in Sources */,
 				1806B60C2D313C4900149CFC /* TimerView.swift in Sources */,
 				180CB3542B765FA80027CE3B /* QuizTangoJun1List.swift in Sources */,
+				189F94F22D33664F0066E6CF /* InterstitialStory.swift in Sources */,
 				1806B6042D313C4900149CFC /* GachaAnimationView.swift in Sources */,
 				1806B6002D313C4900149CFC /* RewardTimesModal.swift in Sources */,
 				180CD0172B7A33BA00A1D335 /* QuizTangoTabManager.swift in Sources */,

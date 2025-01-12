@@ -348,37 +348,40 @@ struct QuizTangoManagerView: View {
                 if tutorialNum == 2 {
                     GeometryReader { geometry in
                         Color.black.opacity(0.5)
-                        // スポットライトの領域をカットアウ
                             .overlay(
                                 RoundedRectangle(cornerRadius: 20, style: .continuous)
-                                    .frame(width: buttonRect.width - 20, height: buttonRect.height)
-                                    .position(x: buttonRect.midX, y:isSmallDevice() ?  buttonRect.midY-130:buttonRect.midY-165)
+                                    .frame(width: buttonRect.width, height: buttonRect.height)
+                                    .position(x: buttonRect.midX, y: isSmallDevice() ? buttonRect.midY - 130 : buttonRect.midY - 180)
                                     .blendMode(.destinationOut)
                             )
+    //                            .padding(.horizontal, -10)
                             .ignoresSafeArea()
                             .compositingGroup()
                             .background(.clear)
                     }
                     VStack {
                         Spacer()
-                            .frame(height: 280)
+                            .frame(height:isSmallDevice() ? buttonRect.minY + bubbleHeight - 110 : buttonRect.minY + bubbleHeight - 140)
                         VStack(alignment: .trailing, spacing: .zero) {
-                            Image("上矢印")
-                                .resizable()
-                                .frame(width: 20, height: 20)
-                                .padding(.trailing, 306.0)
-                            Text("「【英検3級】英単語問題」をクリックしてください。")
+                            Text("「【英検３級】英単語問題」をクリックしてください。")
+                                .font(.callout)
+                                .padding(5)
                                 .font(.system(size: 24.0))
                                 .padding(.all, 16.0)
-                                .background(Color.white)
-                                .cornerRadius(4.0)
+                                .background(Color("Color2"))
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 20)
+                                        .stroke(Color.gray, lineWidth: 15)
+                                )
+                                .cornerRadius(20)
                                 .padding(.horizontal, 16)
                                 .foregroundColor(Color("fontGray"))
+                                .shadow(radius: 10)
                         }
                         .background(GeometryReader { geometry in
                             Path { _ in
                                 DispatchQueue.main.async {
-                                    self.bubbleHeight = geometry.size.height - 40
+                                    self.bubbleHeight = geometry.size.height
                                 }
                             }
                         })
@@ -399,9 +402,9 @@ struct QuizTangoManagerView: View {
                             }
                             Spacer()
                         }
+                        .padding(.top, 20)
                         Spacer()
                     }
-                    .padding(.top)
                 }
                     
             }

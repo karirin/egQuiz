@@ -86,7 +86,7 @@ class GADBannerViewController: UIViewController, GADBannerViewDelegate {
 
 class GADBannerStoryViewController: UIViewController, GADBannerViewDelegate {
     var bannerView: GADBannerView!
-    let adUnitID = "ca-app-pub-4898800212808837/5549995178"
+    let adUnitID = "ca-app-pub-4898800212808837/9853522480"
 
     override func viewDidLoad() {
         super.viewDidLoad()

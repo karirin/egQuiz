@@ -14,7 +14,7 @@ var userId: String
 var quizQuestion: String
 var choices: [String]
 var correctAnswerIndex: Int
-var explanation: String
+var explanation: String!
 }
 
 struct QuizQuestion {
@@ -228,7 +228,7 @@ struct QuizView: View {
     
     // 次の問題へ移る処理
     func moveToNextQuiz() {
-        if monsterType == 3 && monsterHP <= 0 {
+        if monsterType == 2 && monsterHP <= 0 {
             // 最後のモンスターが倒された場合、結果画面へ遷移
             showCompletionMessage = true
             timer?.invalidate()
@@ -353,7 +353,6 @@ struct QuizView: View {
                 question: currentQuiz.question,
                 userAnswer: currentQuiz.choices[index],
                 correctAnswer: currentQuiz.choices[currentQuiz.correctAnswerIndex],
-                explanation: currentQuiz.explanation,
                 isCorrect: isAnswerCorrect
             )
             quizResults.append(result)
@@ -682,8 +681,7 @@ struct QuizView: View {
                             ModalExplanationView(
                                 isPresented: $showExplanationModal,
                                 selectedAnswerIndex: $selectedAnswerIndex, showAlert: $showAlert, audioManager: audioManager , question: quizzes[currentQuizIndex].question, userAnswer: currentQuiz.choices[selectedIndex],
-                                correctAnswer: quizzes[currentQuizIndex].choices[quizzes[currentQuizIndex].correctAnswerIndex],
-                                explanation: quizzes[currentQuizIndex].explanation, currentQuizIndex: $currentQuizIndex,
+                                correctAnswer: quizzes[currentQuizIndex].choices[quizzes[currentQuizIndex].correctAnswerIndex], currentQuizIndex: $currentQuizIndex,
                                 userFlag: $userFlag, pauseTimer:pauseTimer, startTimer: startTimer
                             )
                         }else{
@@ -706,7 +704,7 @@ struct QuizView: View {
                         SubModalView(isSoundOn: $isSoundOn, isPresented: $showSubFlag, isPresenting: $isPresenting, audioManager: audioManager, showHomeModal: $showHomeModal,pauseTimer:pauseTimer,resumeTimer: resumeTimer, userFlag: $userFlag)
                     }
                 }
-                if tutorialNum == 4 && showTutorial == true {
+                if tutorialNum == 3 && showTutorial == true {
                     GeometryReader { geometry in
                         Color.black.opacity(0.5)
                         // スポットライトの領域をカットアウ
@@ -774,7 +772,7 @@ struct QuizView: View {
                         .padding()
                     }
                 }
-                if tutorialNum == 5 && showTutorial == true{
+                if tutorialNum == 4 && showTutorial == true{
                     GeometryReader { geometry in
                         Color.black.opacity(0.5)
                             .ignoresSafeArea()
@@ -843,7 +841,7 @@ struct QuizView: View {
                         Spacer()
                     }
                 }
-                if tutorialNum == 6 && showTutorial == true{
+                if tutorialNum == 5 && showTutorial == true{
                     GeometryReader { geometry in
                         Color.black.opacity(0.5)
                         // スポットライトの領域をカットアウ
@@ -913,7 +911,7 @@ struct QuizView: View {
                         .padding()
                     }
                 }
-                if tutorialNum == 7 && showTutorial == true{
+                if tutorialNum == 6 && showTutorial == true{
                     GeometryReader { geometry in
                         Color.black.opacity(0.5)
                         // スポットライトの領域をカットアウ
@@ -997,7 +995,11 @@ struct QuizView: View {
             .onTapGesture {
                 //                audioManager.playSound()
                 if showCountdown == false {
-                    if tutorialNum == 4 {
+                    if tutorialNum == 3 {
+                        tutorialNum = 4
+                        authManager.updateTutorialNum(userId: authManager.currentUserId ?? "", tutorialNum: 4) { success in
+                        }
+                    } else if tutorialNum == 4 {
                         tutorialNum = 5
                         authManager.updateTutorialNum(userId: authManager.currentUserId ?? "", tutorialNum: 5) { success in
                         }
@@ -1006,10 +1008,6 @@ struct QuizView: View {
                         authManager.updateTutorialNum(userId: authManager.currentUserId ?? "", tutorialNum: 6) { success in
                         }
                     } else if tutorialNum == 6 {
-                        tutorialNum = 7
-                        authManager.updateTutorialNum(userId: authManager.currentUserId ?? "", tutorialNum: 7) { success in
-                        }
-                    } else if tutorialNum == 7 {
                         resumeTimer()
                         tutorialNum = 0
                         authManager.updateTutorialNum(userId: authManager.currentUserId ?? "", tutorialNum: 0) { success in
