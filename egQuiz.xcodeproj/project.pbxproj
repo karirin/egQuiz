@@ -1,0 +1,1111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1806B5E92D313C4900149CFC /* ModalReturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5C42D313C4800149CFC /* ModalReturnView.swift */; };
+		1806B5EA2D313C4900149CFC /* AvatarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5C52D313C4800149CFC /* AvatarListView.swift */; };
+		1806B5EB2D313C4900149CFC /* AnswerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5C62D313C4800149CFC /* AnswerSelectionView.swift */; };
+		1806B5EC2D313C4900149CFC /* RewardModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5C72D313C4800149CFC /* RewardModalView.swift */; };
+		1806B5ED2D313C4900149CFC /* RateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5C82D313C4800149CFC /* RateManager.swift */; };
+		1806B5EE2D313C4900149CFC /* PentagonItShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5C92D313C4800149CFC /* PentagonItShape.swift */; };
+		1806B5EF2D313C4900149CFC /* ModalExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CA2D313C4800149CFC /* ModalExplanationView.swift */; };
+		1806B5F02D313C4900149CFC /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CB2D313C4800149CFC /* RewardView.swift */; };
+		1806B5F12D313C4900149CFC /* StoreKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CC2D313C4800149CFC /* StoreKitView.swift */; };
+		1806B5F22D313C4900149CFC /* GraphManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CD2D313C4800149CFC /* GraphManagerView.swift */; };
+		1806B5F32D313C4900149CFC /* Interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CE2D313C4800149CFC /* Interstitial.swift */; };
+		1806B5F42D313C4900149CFC /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CF2D313C4800149CFC /* RankingView.swift */; };
+		1806B5F52D313C4900149CFC /* IconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D02D313C4800149CFC /* IconPickerView.swift */; };
+		1806B5F62D313C4900149CFC /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D12D313C4800149CFC /* Banner.swift */; };
+		1806B5F72D313C4900149CFC /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D22D313C4800149CFC /* QuizResultView.swift */; };
+		1806B5F82D313C4900149CFC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D32D313C4800149CFC /* RootView.swift */; };
+		1806B5F92D313C4900149CFC /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D42D313C4800149CFC /* SubscriptionView.swift */; };
+		1806B5FA2D313C4900149CFC /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D52D313C4800149CFC /* CustomScrollView.swift */; };
+		1806B5FB2D313C4900149CFC /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D62D313C4800149CFC /* QuizView.swift */; };
+		1806B5FC2D313C4900149CFC /* GachaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D72D313C4800149CFC /* GachaView.swift */; };
+		1806B5FD2D313C4900149CFC /* HelpView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D82D313C4800149CFC /* HelpView1.swift */; };
+		1806B5FE2D313C4900149CFC /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D92D313C4800149CFC /* TermsOfServiceView.swift */; };
+		1806B5FF2D313C4900149CFC /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5DA2D313C4800149CFC /* AuthManager.swift */; };
+		1806B6002D313C4900149CFC /* RewardTimesModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5DB2D313C4800149CFC /* RewardTimesModal.swift */; };
+		1806B6012D313C4900149CFC /* GachaManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5DC2D313C4800149CFC /* GachaManagerView.swift */; };
+		1806B6022D313C4900149CFC /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5DD2D313C4800149CFC /* PrivacyView.swift */; };
+		1806B6032D313C4900149CFC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5DE2D313C4800149CFC /* LoadingView.swift */; };
+		1806B6042D313C4900149CFC /* GachaAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5DF2D313C4800149CFC /* GachaAnimationView.swift */; };
+		1806B6052D313C4900149CFC /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E02D313C4800149CFC /* TopView.swift */; };
+		1806B6062D313C4900149CFC /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E12D313C4800149CFC /* SignUp.swift */; };
+		1806B6072D313C4900149CFC /* ProgressBar3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E22D313C4800149CFC /* ProgressBar3.swift */; };
+		1806B6082D313C4900149CFC /* IllustratedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E32D313C4800149CFC /* IllustratedView.swift */; };
+		1806B6092D313C4900149CFC /* LoginModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E42D313C4800149CFC /* LoginModalView.swift */; };
+		1806B60A2D313C4900149CFC /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E52D313C4800149CFC /* ModalView.swift */; };
+		1806B60B2D313C4900149CFC /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E62D313C4800149CFC /* AudioManager.swift */; };
+		1806B60C2D313C4900149CFC /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E72D313C4900149CFC /* TimerView.swift */; };
+		1806B60D2D313C4900149CFC /* ModalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5E82D313C4900149CFC /* ModalTitleView.swift */; };
+		1806B60F2D31670800149CFC /* PentagonTangoShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B60E2D31670800149CFC /* PentagonTangoShape.swift */; };
+		1806B6112D316A9200149CFC /* CoinModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B6102D316A9200149CFC /* CoinModalView.swift */; };
+		1806B6132D316AC800149CFC /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B6122D316AC800149CFC /* BarChartView.swift */; };
+		1806B6152D316AF200149CFC /* PreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B6142D316AF200149CFC /* PreView.swift */; };
+		1806B6192D3203C400149CFC /* QuizIncorrectTangoAnswerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B6182D3203C400149CFC /* QuizIncorrectTangoAnswerListView.swift */; };
+		1806B61B2D32062A00149CFC /* QuizTango3List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B61A2D32062A00149CFC /* QuizTango3List.swift */; };
+		180CB34E2B76441A0027CE3B /* TittlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB34D2B76441A0027CE3B /* TittlesView.swift */; };
+		180CB3502B7656F00027CE3B /* QuizTangoJun2List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB34F2B7656F00027CE3B /* QuizTangoJun2List.swift */; };
+		180CB3522B765C410027CE3B /* QuizTango2List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3512B765C410027CE3B /* QuizTango2List.swift */; };
+		180CB3542B765FA80027CE3B /* QuizTangoJun1List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3532B765FA80027CE3B /* QuizTangoJun1List.swift */; };
+		180CB3562B76634B0027CE3B /* QuizTango1List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3552B76634B0027CE3B /* QuizTango1List.swift */; };
+		180CB3582B7665BA0027CE3B /* QuizJukugo3List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3572B7665BA0027CE3B /* QuizJukugo3List.swift */; };
+		180CB35A2B7669690027CE3B /* QuizJukugoJun2List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3592B7669690027CE3B /* QuizJukugoJun2List.swift */; };
+		180CB35C2B766A9F0027CE3B /* QuizJukugo2List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB35B2B766A9F0027CE3B /* QuizJukugo2List.swift */; };
+		180CB35E2B766B4A0027CE3B /* QuizJukugoJun1List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB35D2B766B4A0027CE3B /* QuizJukugoJun1List.swift */; };
+		180CB3602B766D330027CE3B /* QuizBunpouBeginnerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB35F2B766D330027CE3B /* QuizBunpouBeginnerList.swift */; };
+		180CB3622B766E0B0027CE3B /* QuizBunpouIntermediateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3612B766E0B0027CE3B /* QuizBunpouIntermediateList.swift */; };
+		180CB3642B766EBF0027CE3B /* QuizBunpouAdvancedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3632B766EBF0027CE3B /* QuizBunpouAdvancedList.swift */; };
+		180CB3662B766F550027CE3B /* QuizToeicTangoBeginnerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3652B766F550027CE3B /* QuizToeicTangoBeginnerList.swift */; };
+		180CB3682B7675010027CE3B /* QuizToeicTangoIntermediateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3672B7675010027CE3B /* QuizToeicTangoIntermediateList.swift */; };
+		180CB36A2B7675E60027CE3B /* QuizToeicTangoAdvancedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3692B7675E60027CE3B /* QuizToeicTangoAdvancedList.swift */; };
+		180CB36C2B7676E40027CE3B /* QuizToeicJukugoBeginnerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB36B2B7676E40027CE3B /* QuizToeicJukugoBeginnerList.swift */; };
+		180CB36E2B76774D0027CE3B /* QuizToeicJukugoIntermediateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB36D2B76774D0027CE3B /* QuizToeicJukugoIntermediateList.swift */; };
+		180CB3702B7677FC0027CE3B /* QuizToeicJukugoAdvancedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB36F2B7677FC0027CE3B /* QuizToeicJukugoAdvancedList.swift */; };
+		180CB3722B7687880027CE3B /* QuizManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3712B7687880027CE3B /* QuizManagerView.swift */; };
+		180CB3742B7722B20027CE3B /* QuizTangoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3732B7722B20027CE3B /* QuizTangoManager.swift */; };
+		180CB3762B7728D10027CE3B /* QuizJukugoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3752B7728D10027CE3B /* QuizJukugoManager.swift */; };
+		180CB3782B7729A10027CE3B /* QuizBunpouManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3772B7729A10027CE3B /* QuizBunpouManager.swift */; };
+		180CB37A2B778D740027CE3B /* QuizManagerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB3792B778D740027CE3B /* QuizManagerTabView.swift */; };
+		180CB37C2B788AC40027CE3B /* QuizIncorrectJukugoAnswerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB37B2B788AC40027CE3B /* QuizIncorrectJukugoAnswerListView.swift */; };
+		180CB37E2B788B710027CE3B /* QuizIncorrectBunpouAnswerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CB37D2B788B710027CE3B /* QuizIncorrectBunpouAnswerListView.swift */; };
+		180CD0172B7A33BA00A1D335 /* QuizTangoTabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CD0162B7A33BA00A1D335 /* QuizTangoTabManager.swift */; };
+		183211532B959D7C0064F10A /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183211522B959D7C0064F10A /* ContactView.swift */; };
+		183211592B9A19CC0064F10A /* StoreKit.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 183211582B9A19CC0064F10A /* StoreKit.storekit */; };
+		184219752B748BE20007F401 /* egQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184219742B748BE20007F401 /* egQuizApp.swift */; };
+		184219792B748BE40007F401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184219782B748BE40007F401 /* Assets.xcassets */; };
+		1842197D2B748BE40007F401 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1842197C2B748BE40007F401 /* Preview Assets.xcassets */; };
+		184219872B748BE40007F401 /* egQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184219862B748BE40007F401 /* egQuizTests.swift */; };
+		184219912B748BE40007F401 /* egQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184219902B748BE40007F401 /* egQuizUITests.swift */; };
+		184219932B748BE40007F401 /* egQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184219922B748BE40007F401 /* egQuizUITestsLaunchTests.swift */; };
+		18421B212B749A390007F401 /* AppVersionMonitorSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 18421B202B749A390007F401 /* AppVersionMonitorSwiftUI */; };
+		18421B232B749C460007F401 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18421B222B749C460007F401 /* GoogleService-Info.plist */; };
+		18421B332B749D380007F401 /* 正解.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B252B749D380007F401 /* 正解.mp3 */; };
+		18421B342B749D380007F401 /* soundKettei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B262B749D380007F401 /* soundKettei.mp3 */; };
+		18421B352B749D380007F401 /* ホームに戻る.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B272B749D380007F401 /* ホームに戻る.mp3 */; };
+		18421B362B749D380007F401 /* レベルアップ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B282B749D380007F401 /* レベルアップ.mp3 */; };
+		18421B372B749D380007F401 /* カウントダウン.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B292B749D380007F401 /* カウントダウン.mp3 */; };
+		18421B382B749D380007F401 /* 不正解.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B2A2B749D380007F401 /* 不正解.mp3 */; };
+		18421B392B749D380007F401 /* 味方攻撃.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B2B2B749D380007F401 /* 味方攻撃.mp3 */; };
+		18421B3A2B749D380007F401 /* 敵攻撃.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B2C2B749D380007F401 /* 敵攻撃.mp3 */; };
+		18421B3C2B749D380007F401 /* 倒れる.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B2E2B749D380007F401 /* 倒れる.mp3 */; };
+		18421B3E2B749D380007F401 /* おとも切り替え.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B302B749D380007F401 /* おとも切り替え.mp3 */; };
+		18421B3F2B749D380007F401 /* キャンセル.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18421B312B749D380007F401 /* キャンセル.mp3 */; };
+		189EDA0D2B78CE83007E8780 /* PentagonJukugoShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EDA0C2B78CE83007E8780 /* PentagonJukugoShape.swift */; };
+		189EDA0F2B78D14D007E8780 /* PentangonBunpouShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EDA0E2B78D14D007E8780 /* PentangonBunpouShape.swift */; };
+		189EDA112B78D358007E8780 /* PentagonManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EDA102B78D358007E8780 /* PentagonManagerView.swift */; };
+		189F94DE2D320A6F0066E6CF /* SubModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94DD2D320A6F0066E6CF /* SubModalView.swift */; };
+		189F94E22D320CB30066E6CF /* ContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94E12D320CB30066E6CF /* ContenView.swift */; };
+		189F94E42D320D3E0066E6CF /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94E32D320D3E0066E6CF /* SplashScreenView.swift */; };
+		189F94E62D320D880066E6CF /* ProgressExpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94E52D320D880066E6CF /* ProgressExpBar.swift */; };
+		189F94E82D320F7D0066E6CF /* StampAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94E72D320F7D0066E6CF /* StampAnimationView.swift */; };
+		189F94EA2D321AAB0066E6CF /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94E92D321AAB0066E6CF /* ReviewView.swift */; };
+		189F94EC2D321AE70066E6CF /* HelpModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94EB2D321AE70066E6CF /* HelpModalView.swift */; };
+		189F94EE2D321B120066E6CF /* ChangeNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94ED2D321B120066E6CF /* ChangeNameView.swift */; };
+		189F94F02D321B5A0066E6CF /* TutorialModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94EF2D321B5A0066E6CF /* TutorialModalView.swift */; };
+		189FEA362B94EA86005C91B9 /* SettingITView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FEA352B94EA86005C91B9 /* SettingITView.swift */; };
+		5B9F78F661C4F84303D4FFE7 /* Pods_egQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91A26AE2AA111E1625FEBAF /* Pods_egQuiz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184219832B748BE40007F401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184219692B748BE20007F401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184219702B748BE20007F401;
+			remoteInfo = egQuiz;
+		};
+		1842198D2B748BE40007F401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184219692B748BE20007F401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184219702B748BE20007F401;
+			remoteInfo = egQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1806B5C42D313C4800149CFC /* ModalReturnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalReturnView.swift; sourceTree = "<group>"; };
+		1806B5C52D313C4800149CFC /* AvatarListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarListView.swift; sourceTree = "<group>"; };
+		1806B5C62D313C4800149CFC /* AnswerSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerSelectionView.swift; sourceTree = "<group>"; };
+		1806B5C72D313C4800149CFC /* RewardModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardModalView.swift; sourceTree = "<group>"; };
+		1806B5C82D313C4800149CFC /* RateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateManager.swift; sourceTree = "<group>"; };
+		1806B5C92D313C4800149CFC /* PentagonItShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PentagonItShape.swift; sourceTree = "<group>"; };
+		1806B5CA2D313C4800149CFC /* ModalExplanationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalExplanationView.swift; sourceTree = "<group>"; };
+		1806B5CB2D313C4800149CFC /* RewardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		1806B5CC2D313C4800149CFC /* StoreKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitView.swift; sourceTree = "<group>"; };
+		1806B5CD2D313C4800149CFC /* GraphManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphManagerView.swift; sourceTree = "<group>"; };
+		1806B5CE2D313C4800149CFC /* Interstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interstitial.swift; sourceTree = "<group>"; };
+		1806B5CF2D313C4800149CFC /* RankingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
+		1806B5D02D313C4800149CFC /* IconPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerView.swift; sourceTree = "<group>"; };
+		1806B5D12D313C4800149CFC /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		1806B5D22D313C4800149CFC /* QuizResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		1806B5D32D313C4800149CFC /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1806B5D42D313C4800149CFC /* SubscriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		1806B5D52D313C4800149CFC /* CustomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		1806B5D62D313C4800149CFC /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		1806B5D72D313C4800149CFC /* GachaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GachaView.swift; sourceTree = "<group>"; };
+		1806B5D82D313C4800149CFC /* HelpView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpView1.swift; sourceTree = "<group>"; };
+		1806B5D92D313C4800149CFC /* TermsOfServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		1806B5DA2D313C4800149CFC /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		1806B5DB2D313C4800149CFC /* RewardTimesModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardTimesModal.swift; sourceTree = "<group>"; };
+		1806B5DC2D313C4800149CFC /* GachaManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GachaManagerView.swift; sourceTree = "<group>"; };
+		1806B5DD2D313C4800149CFC /* PrivacyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		1806B5DE2D313C4800149CFC /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1806B5DF2D313C4800149CFC /* GachaAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GachaAnimationView.swift; sourceTree = "<group>"; };
+		1806B5E02D313C4800149CFC /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		1806B5E12D313C4800149CFC /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		1806B5E22D313C4800149CFC /* ProgressBar3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar3.swift; sourceTree = "<group>"; };
+		1806B5E32D313C4800149CFC /* IllustratedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IllustratedView.swift; sourceTree = "<group>"; };
+		1806B5E42D313C4800149CFC /* LoginModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModalView.swift; sourceTree = "<group>"; };
+		1806B5E52D313C4800149CFC /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		1806B5E62D313C4800149CFC /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		1806B5E72D313C4900149CFC /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		1806B5E82D313C4900149CFC /* ModalTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTitleView.swift; sourceTree = "<group>"; };
+		1806B60E2D31670800149CFC /* PentagonTangoShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentagonTangoShape.swift; sourceTree = "<group>"; };
+		1806B6102D316A9200149CFC /* CoinModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModalView.swift; sourceTree = "<group>"; };
+		1806B6122D316AC800149CFC /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		1806B6142D316AF200149CFC /* PreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreView.swift; sourceTree = "<group>"; };
+		1806B6182D3203C400149CFC /* QuizIncorrectTangoAnswerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizIncorrectTangoAnswerListView.swift; sourceTree = "<group>"; };
+		1806B61A2D32062A00149CFC /* QuizTango3List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTango3List.swift; sourceTree = "<group>"; };
+		180CB34D2B76441A0027CE3B /* TittlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TittlesView.swift; sourceTree = "<group>"; };
+		180CB34F2B7656F00027CE3B /* QuizTangoJun2List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTangoJun2List.swift; sourceTree = "<group>"; };
+		180CB3512B765C410027CE3B /* QuizTango2List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTango2List.swift; sourceTree = "<group>"; };
+		180CB3532B765FA80027CE3B /* QuizTangoJun1List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTangoJun1List.swift; sourceTree = "<group>"; };
+		180CB3552B76634B0027CE3B /* QuizTango1List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTango1List.swift; sourceTree = "<group>"; };
+		180CB3572B7665BA0027CE3B /* QuizJukugo3List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizJukugo3List.swift; sourceTree = "<group>"; };
+		180CB3592B7669690027CE3B /* QuizJukugoJun2List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizJukugoJun2List.swift; sourceTree = "<group>"; };
+		180CB35B2B766A9F0027CE3B /* QuizJukugo2List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizJukugo2List.swift; sourceTree = "<group>"; };
+		180CB35D2B766B4A0027CE3B /* QuizJukugoJun1List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizJukugoJun1List.swift; sourceTree = "<group>"; };
+		180CB35F2B766D330027CE3B /* QuizBunpouBeginnerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBunpouBeginnerList.swift; sourceTree = "<group>"; };
+		180CB3612B766E0B0027CE3B /* QuizBunpouIntermediateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBunpouIntermediateList.swift; sourceTree = "<group>"; };
+		180CB3632B766EBF0027CE3B /* QuizBunpouAdvancedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBunpouAdvancedList.swift; sourceTree = "<group>"; };
+		180CB3652B766F550027CE3B /* QuizToeicTangoBeginnerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizToeicTangoBeginnerList.swift; sourceTree = "<group>"; };
+		180CB3672B7675010027CE3B /* QuizToeicTangoIntermediateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizToeicTangoIntermediateList.swift; sourceTree = "<group>"; };
+		180CB3692B7675E60027CE3B /* QuizToeicTangoAdvancedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizToeicTangoAdvancedList.swift; sourceTree = "<group>"; };
+		180CB36B2B7676E40027CE3B /* QuizToeicJukugoBeginnerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizToeicJukugoBeginnerList.swift; sourceTree = "<group>"; };
+		180CB36D2B76774D0027CE3B /* QuizToeicJukugoIntermediateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizToeicJukugoIntermediateList.swift; sourceTree = "<group>"; };
+		180CB36F2B7677FC0027CE3B /* QuizToeicJukugoAdvancedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizToeicJukugoAdvancedList.swift; sourceTree = "<group>"; };
+		180CB3712B7687880027CE3B /* QuizManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManagerView.swift; sourceTree = "<group>"; };
+		180CB3732B7722B20027CE3B /* QuizTangoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTangoManager.swift; sourceTree = "<group>"; };
+		180CB3752B7728D10027CE3B /* QuizJukugoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizJukugoManager.swift; sourceTree = "<group>"; };
+		180CB3772B7729A10027CE3B /* QuizBunpouManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBunpouManager.swift; sourceTree = "<group>"; };
+		180CB3792B778D740027CE3B /* QuizManagerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManagerTabView.swift; sourceTree = "<group>"; };
+		180CB37B2B788AC40027CE3B /* QuizIncorrectJukugoAnswerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizIncorrectJukugoAnswerListView.swift; sourceTree = "<group>"; };
+		180CB37D2B788B710027CE3B /* QuizIncorrectBunpouAnswerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizIncorrectBunpouAnswerListView.swift; sourceTree = "<group>"; };
+		180CD0162B7A33BA00A1D335 /* QuizTangoTabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTangoTabManager.swift; sourceTree = "<group>"; };
+		183211522B959D7C0064F10A /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		183211582B9A19CC0064F10A /* StoreKit.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = StoreKit.storekit; path = ../itQuiz/StoreKit.storekit; sourceTree = "<group>"; };
+		184219712B748BE20007F401 /* egQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = egQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184219742B748BE20007F401 /* egQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egQuizApp.swift; sourceTree = "<group>"; };
+		184219782B748BE40007F401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1842197A2B748BE40007F401 /* egQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = egQuiz.entitlements; sourceTree = "<group>"; };
+		1842197C2B748BE40007F401 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		184219822B748BE40007F401 /* egQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184219862B748BE40007F401 /* egQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egQuizTests.swift; sourceTree = "<group>"; };
+		1842198C2B748BE40007F401 /* egQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184219902B748BE40007F401 /* egQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egQuizUITests.swift; sourceTree = "<group>"; };
+		184219922B748BE40007F401 /* egQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18421B222B749C460007F401 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18421B252B749D380007F401 /* 正解.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "正解.mp3"; path = "../../../Downloads/it 効果音/正解.mp3"; sourceTree = "<group>"; };
+		18421B262B749D380007F401 /* soundKettei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soundKettei.mp3; path = "../../../Downloads/it 効果音/soundKettei.mp3"; sourceTree = "<group>"; };
+		18421B272B749D380007F401 /* ホームに戻る.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ホームに戻る.mp3"; path = "../../../Downloads/it 効果音/ホームに戻る.mp3"; sourceTree = "<group>"; };
+		18421B282B749D380007F401 /* レベルアップ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "レベルアップ.mp3"; path = "../../../Downloads/it 効果音/レベルアップ.mp3"; sourceTree = "<group>"; };
+		18421B292B749D380007F401 /* カウントダウン.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "カウントダウン.mp3"; path = "../../../Downloads/it 効果音/カウントダウン.mp3"; sourceTree = "<group>"; };
+		18421B2A2B749D380007F401 /* 不正解.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "不正解.mp3"; path = "../../../Downloads/it 効果音/不正解.mp3"; sourceTree = "<group>"; };
+		18421B2B2B749D380007F401 /* 味方攻撃.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "味方攻撃.mp3"; path = "../../../Downloads/it 効果音/味方攻撃.mp3"; sourceTree = "<group>"; };
+		18421B2C2B749D380007F401 /* 敵攻撃.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "敵攻撃.mp3"; path = "../../../Downloads/it 効果音/敵攻撃.mp3"; sourceTree = "<group>"; };
+		18421B2E2B749D380007F401 /* 倒れる.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "倒れる.mp3"; path = "../../../Downloads/it 効果音/倒れる.mp3"; sourceTree = "<group>"; };
+		18421B302B749D380007F401 /* おとも切り替え.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "おとも切り替え.mp3"; path = "../../../Downloads/it 効果音/おとも切り替え.mp3"; sourceTree = "<group>"; };
+		18421B312B749D380007F401 /* キャンセル.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "キャンセル.mp3"; path = "../../../Downloads/it 効果音/キャンセル.mp3"; sourceTree = "<group>"; };
+		18421B462B74DB0E0007F401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		189EDA0C2B78CE83007E8780 /* PentagonJukugoShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentagonJukugoShape.swift; sourceTree = "<group>"; };
+		189EDA0E2B78D14D007E8780 /* PentangonBunpouShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentangonBunpouShape.swift; sourceTree = "<group>"; };
+		189EDA102B78D358007E8780 /* PentagonManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentagonManagerView.swift; sourceTree = "<group>"; };
+		189F94DD2D320A6F0066E6CF /* SubModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubModalView.swift; sourceTree = "<group>"; };
+		189F94DF2D320C080066E6CF /* ゲームオーバー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ゲームオーバー.mp3"; sourceTree = "<group>"; };
+		189F94E02D320C080066E6CF /* ゲームクリア.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ゲームクリア.mp3"; sourceTree = "<group>"; };
+		189F94E12D320CB30066E6CF /* ContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenView.swift; sourceTree = "<group>"; };
+		189F94E32D320D3E0066E6CF /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		189F94E52D320D880066E6CF /* ProgressExpBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressExpBar.swift; sourceTree = "<group>"; };
+		189F94E72D320F7D0066E6CF /* StampAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampAnimationView.swift; sourceTree = "<group>"; };
+		189F94E92D321AAB0066E6CF /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		189F94EB2D321AE70066E6CF /* HelpModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpModalView.swift; sourceTree = "<group>"; };
+		189F94ED2D321B120066E6CF /* ChangeNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNameView.swift; sourceTree = "<group>"; };
+		189F94EF2D321B5A0066E6CF /* TutorialModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialModalView.swift; sourceTree = "<group>"; };
+		189FEA352B94EA86005C91B9 /* SettingITView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingITView.swift; sourceTree = "<group>"; };
+		A91A26AE2AA111E1625FEBAF /* Pods_egQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1F0F58BD1201E2101FCC07 /* Pods-egQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egQuiz.release.xcconfig"; path = "Target Support Files/Pods-egQuiz/Pods-egQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		D398AFF1813715BAE43E5BE6 /* Pods-egQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egQuiz.debug.xcconfig"; path = "Target Support Files/Pods-egQuiz/Pods-egQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1842196E2B748BE20007F401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18421B212B749A390007F401 /* AppVersionMonitorSwiftUI in Frameworks */,
+				5B9F78F661C4F84303D4FFE7 /* Pods_egQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1842197F2B748BE40007F401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184219892B748BE40007F401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184219682B748BE20007F401 = {
+			isa = PBXGroup;
+			children = (
+				183211582B9A19CC0064F10A /* StoreKit.storekit */,
+				184219732B748BE20007F401 /* egQuiz */,
+				184219852B748BE40007F401 /* egQuizTests */,
+				1842198F2B748BE40007F401 /* egQuizUITests */,
+				184219722B748BE20007F401 /* Products */,
+				6C20D12393CD8F5486A7D854 /* Pods */,
+				DA6EC6D0A7AF88FA45B8BB21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184219722B748BE20007F401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184219712B748BE20007F401 /* egQuiz.app */,
+				184219822B748BE40007F401 /* egQuizTests.xctest */,
+				1842198C2B748BE40007F401 /* egQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184219732B748BE20007F401 /* egQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				18421B462B74DB0E0007F401 /* Info.plist */,
+				18421B222B749C460007F401 /* GoogleService-Info.plist */,
+				184219742B748BE20007F401 /* egQuizApp.swift */,
+				1806B5E62D313C4800149CFC /* AudioManager.swift */,
+				189F94E92D321AAB0066E6CF /* ReviewView.swift */,
+				189F94EB2D321AE70066E6CF /* HelpModalView.swift */,
+				189F94ED2D321B120066E6CF /* ChangeNameView.swift */,
+				189F94EF2D321B5A0066E6CF /* TutorialModalView.swift */,
+				1806B5C62D313C4800149CFC /* AnswerSelectionView.swift */,
+				1806B5DA2D313C4800149CFC /* AuthManager.swift */,
+				1806B5C52D313C4800149CFC /* AvatarListView.swift */,
+				1806B5D12D313C4800149CFC /* Banner.swift */,
+				1806B5D52D313C4800149CFC /* CustomScrollView.swift */,
+				1806B5DF2D313C4800149CFC /* GachaAnimationView.swift */,
+				1806B5DC2D313C4800149CFC /* GachaManagerView.swift */,
+				1806B5D72D313C4800149CFC /* GachaView.swift */,
+				1806B5CD2D313C4800149CFC /* GraphManagerView.swift */,
+				1806B5D82D313C4800149CFC /* HelpView1.swift */,
+				1806B5D02D313C4800149CFC /* IconPickerView.swift */,
+				1806B5E32D313C4800149CFC /* IllustratedView.swift */,
+				1806B5CE2D313C4800149CFC /* Interstitial.swift */,
+				1806B5DE2D313C4800149CFC /* LoadingView.swift */,
+				1806B5E42D313C4800149CFC /* LoginModalView.swift */,
+				1806B5CA2D313C4800149CFC /* ModalExplanationView.swift */,
+				1806B5C42D313C4800149CFC /* ModalReturnView.swift */,
+				1806B5E82D313C4900149CFC /* ModalTitleView.swift */,
+				1806B5E52D313C4800149CFC /* ModalView.swift */,
+				1806B5C92D313C4800149CFC /* PentagonItShape.swift */,
+				1806B5DD2D313C4800149CFC /* PrivacyView.swift */,
+				1806B5E22D313C4800149CFC /* ProgressBar3.swift */,
+				1806B5D22D313C4800149CFC /* QuizResultView.swift */,
+				1806B5D62D313C4800149CFC /* QuizView.swift */,
+				1806B5CF2D313C4800149CFC /* RankingView.swift */,
+				1806B5C82D313C4800149CFC /* RateManager.swift */,
+				1806B5C72D313C4800149CFC /* RewardModalView.swift */,
+				1806B5DB2D313C4800149CFC /* RewardTimesModal.swift */,
+				1806B5CB2D313C4800149CFC /* RewardView.swift */,
+				1806B5D32D313C4800149CFC /* RootView.swift */,
+				1806B5E12D313C4800149CFC /* SignUp.swift */,
+				1806B5CC2D313C4800149CFC /* StoreKitView.swift */,
+				1806B5D42D313C4800149CFC /* SubscriptionView.swift */,
+				1806B5D92D313C4800149CFC /* TermsOfServiceView.swift */,
+				1806B5E72D313C4900149CFC /* TimerView.swift */,
+				1806B5E02D313C4800149CFC /* TopView.swift */,
+				180CB34D2B76441A0027CE3B /* TittlesView.swift */,
+				189EDA0C2B78CE83007E8780 /* PentagonJukugoShape.swift */,
+				1806B60E2D31670800149CFC /* PentagonTangoShape.swift */,
+				189EDA0E2B78D14D007E8780 /* PentangonBunpouShape.swift */,
+				1806B6122D316AC800149CFC /* BarChartView.swift */,
+				1806B6142D316AF200149CFC /* PreView.swift */,
+				189F94DD2D320A6F0066E6CF /* SubModalView.swift */,
+				180CB34F2B7656F00027CE3B /* QuizTangoJun2List.swift */,
+				1806B61A2D32062A00149CFC /* QuizTango3List.swift */,
+				180CB3512B765C410027CE3B /* QuizTango2List.swift */,
+				180CB3532B765FA80027CE3B /* QuizTangoJun1List.swift */,
+				1806B6102D316A9200149CFC /* CoinModalView.swift */,
+				180CB3552B76634B0027CE3B /* QuizTango1List.swift */,
+				180CB3572B7665BA0027CE3B /* QuizJukugo3List.swift */,
+				180CB3592B7669690027CE3B /* QuizJukugoJun2List.swift */,
+				180CB35B2B766A9F0027CE3B /* QuizJukugo2List.swift */,
+				180CB35D2B766B4A0027CE3B /* QuizJukugoJun1List.swift */,
+				180CB35F2B766D330027CE3B /* QuizBunpouBeginnerList.swift */,
+				180CB3612B766E0B0027CE3B /* QuizBunpouIntermediateList.swift */,
+				180CB3632B766EBF0027CE3B /* QuizBunpouAdvancedList.swift */,
+				180CB3652B766F550027CE3B /* QuizToeicTangoBeginnerList.swift */,
+				180CB3672B7675010027CE3B /* QuizToeicTangoIntermediateList.swift */,
+				180CB3692B7675E60027CE3B /* QuizToeicTangoAdvancedList.swift */,
+				189F94E12D320CB30066E6CF /* ContenView.swift */,
+				189F94E72D320F7D0066E6CF /* StampAnimationView.swift */,
+				189F94E52D320D880066E6CF /* ProgressExpBar.swift */,
+				180CB36B2B7676E40027CE3B /* QuizToeicJukugoBeginnerList.swift */,
+				180CB36D2B76774D0027CE3B /* QuizToeicJukugoIntermediateList.swift */,
+				180CB36F2B7677FC0027CE3B /* QuizToeicJukugoAdvancedList.swift */,
+				180CB37D2B788B710027CE3B /* QuizIncorrectBunpouAnswerListView.swift */,
+				180CB37B2B788AC40027CE3B /* QuizIncorrectJukugoAnswerListView.swift */,
+				1806B6182D3203C400149CFC /* QuizIncorrectTangoAnswerListView.swift */,
+				180CB3732B7722B20027CE3B /* QuizTangoManager.swift */,
+				180CD0162B7A33BA00A1D335 /* QuizTangoTabManager.swift */,
+				180CB3752B7728D10027CE3B /* QuizJukugoManager.swift */,
+				180CB3772B7729A10027CE3B /* QuizBunpouManager.swift */,
+				180CB3712B7687880027CE3B /* QuizManagerView.swift */,
+				189EDA102B78D358007E8780 /* PentagonManagerView.swift */,
+				180CB3792B778D740027CE3B /* QuizManagerTabView.swift */,
+				189FEA352B94EA86005C91B9 /* SettingITView.swift */,
+				189F94E32D320D3E0066E6CF /* SplashScreenView.swift */,
+				183211522B959D7C0064F10A /* ContactView.swift */,
+				184219782B748BE40007F401 /* Assets.xcassets */,
+				18421B262B749D380007F401 /* soundKettei.mp3 */,
+				18421B302B749D380007F401 /* おとも切り替え.mp3 */,
+				18421B292B749D380007F401 /* カウントダウン.mp3 */,
+				18421B312B749D380007F401 /* キャンセル.mp3 */,
+				189F94DF2D320C080066E6CF /* ゲームオーバー.mp3 */,
+				189F94E02D320C080066E6CF /* ゲームクリア.mp3 */,
+				18421B272B749D380007F401 /* ホームに戻る.mp3 */,
+				18421B282B749D380007F401 /* レベルアップ.mp3 */,
+				18421B252B749D380007F401 /* 正解.mp3 */,
+				18421B2C2B749D380007F401 /* 敵攻撃.mp3 */,
+				18421B2E2B749D380007F401 /* 倒れる.mp3 */,
+				18421B2A2B749D380007F401 /* 不正解.mp3 */,
+				18421B2B2B749D380007F401 /* 味方攻撃.mp3 */,
+				1842197A2B748BE40007F401 /* egQuiz.entitlements */,
+				1842197B2B748BE40007F401 /* Preview Content */,
+			);
+			path = egQuiz;
+			sourceTree = "<group>";
+		};
+		1842197B2B748BE40007F401 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1842197C2B748BE40007F401 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		184219852B748BE40007F401 /* egQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				184219862B748BE40007F401 /* egQuizTests.swift */,
+			);
+			path = egQuizTests;
+			sourceTree = "<group>";
+		};
+		1842198F2B748BE40007F401 /* egQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184219902B748BE40007F401 /* egQuizUITests.swift */,
+				184219922B748BE40007F401 /* egQuizUITestsLaunchTests.swift */,
+			);
+			path = egQuizUITests;
+			sourceTree = "<group>";
+		};
+		6C20D12393CD8F5486A7D854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D398AFF1813715BAE43E5BE6 /* Pods-egQuiz.debug.xcconfig */,
+				BC1F0F58BD1201E2101FCC07 /* Pods-egQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA6EC6D0A7AF88FA45B8BB21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A91A26AE2AA111E1625FEBAF /* Pods_egQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184219702B748BE20007F401 /* egQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184219962B748BE40007F401 /* Build configuration list for PBXNativeTarget "egQuiz" */;
+			buildPhases = (
+				0537D9A735B306BAB42D15E4 /* [CP] Check Pods Manifest.lock */,
+				1842196D2B748BE20007F401 /* Sources */,
+				1842196E2B748BE20007F401 /* Frameworks */,
+				1842196F2B748BE20007F401 /* Resources */,
+				A59962AA99E9BC56FAD9B9EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = egQuiz;
+			packageProductDependencies = (
+				18421B202B749A390007F401 /* AppVersionMonitorSwiftUI */,
+			);
+			productName = egQuiz;
+			productReference = 184219712B748BE20007F401 /* egQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184219812B748BE40007F401 /* egQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184219992B748BE40007F401 /* Build configuration list for PBXNativeTarget "egQuizTests" */;
+			buildPhases = (
+				1842197E2B748BE40007F401 /* Sources */,
+				1842197F2B748BE40007F401 /* Frameworks */,
+				184219802B748BE40007F401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184219842B748BE40007F401 /* PBXTargetDependency */,
+			);
+			name = egQuizTests;
+			productName = egQuizTests;
+			productReference = 184219822B748BE40007F401 /* egQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1842198B2B748BE40007F401 /* egQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1842199C2B748BE40007F401 /* Build configuration list for PBXNativeTarget "egQuizUITests" */;
+			buildPhases = (
+				184219882B748BE40007F401 /* Sources */,
+				184219892B748BE40007F401 /* Frameworks */,
+				1842198A2B748BE40007F401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1842198E2B748BE40007F401 /* PBXTargetDependency */,
+			);
+			name = egQuizUITests;
+			productName = egQuizUITests;
+			productReference = 1842198C2B748BE40007F401 /* egQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184219692B748BE20007F401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					184219702B748BE20007F401 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					184219812B748BE40007F401 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 184219702B748BE20007F401;
+					};
+					1842198B2B748BE40007F401 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 184219702B748BE20007F401;
+					};
+				};
+			};
+			buildConfigurationList = 1842196C2B748BE20007F401 /* Build configuration list for PBXProject "egQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184219682B748BE20007F401;
+			packageReferences = (
+				18421B1F2B749A390007F401 /* XCRemoteSwiftPackageReference "AppVersionMonitorSwiftUI" */,
+			);
+			productRefGroup = 184219722B748BE20007F401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184219702B748BE20007F401 /* egQuiz */,
+				184219812B748BE40007F401 /* egQuizTests */,
+				1842198B2B748BE40007F401 /* egQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1842196F2B748BE20007F401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18421B382B749D380007F401 /* 不正解.mp3 in Resources */,
+				18421B3E2B749D380007F401 /* おとも切り替え.mp3 in Resources */,
+				18421B3F2B749D380007F401 /* キャンセル.mp3 in Resources */,
+				183211592B9A19CC0064F10A /* StoreKit.storekit in Resources */,
+				18421B3A2B749D380007F401 /* 敵攻撃.mp3 in Resources */,
+				18421B392B749D380007F401 /* 味方攻撃.mp3 in Resources */,
+				1842197D2B748BE40007F401 /* Preview Assets.xcassets in Resources */,
+				18421B232B749C460007F401 /* GoogleService-Info.plist in Resources */,
+				18421B362B749D380007F401 /* レベルアップ.mp3 in Resources */,
+				18421B352B749D380007F401 /* ホームに戻る.mp3 in Resources */,
+				18421B342B749D380007F401 /* soundKettei.mp3 in Resources */,
+				18421B332B749D380007F401 /* 正解.mp3 in Resources */,
+				18421B372B749D380007F401 /* カウントダウン.mp3 in Resources */,
+				18421B3C2B749D380007F401 /* 倒れる.mp3 in Resources */,
+				184219792B748BE40007F401 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184219802B748BE40007F401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1842198A2B748BE40007F401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0537D9A735B306BAB42D15E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-egQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A59962AA99E9BC56FAD9B9EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egQuiz/Pods-egQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-egQuiz/Pods-egQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-egQuiz/Pods-egQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1842196D2B748BE20007F401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189FEA362B94EA86005C91B9 /* SettingITView.swift in Sources */,
+				1806B5ED2D313C4900149CFC /* RateManager.swift in Sources */,
+				1806B5F22D313C4900149CFC /* GraphManagerView.swift in Sources */,
+				1806B6072D313C4900149CFC /* ProgressBar3.swift in Sources */,
+				1806B6192D3203C400149CFC /* QuizIncorrectTangoAnswerListView.swift in Sources */,
+				180CB37A2B778D740027CE3B /* QuizManagerTabView.swift in Sources */,
+				180CB35C2B766A9F0027CE3B /* QuizJukugo2List.swift in Sources */,
+				180CB3762B7728D10027CE3B /* QuizJukugoManager.swift in Sources */,
+				180CB35A2B7669690027CE3B /* QuizJukugoJun2List.swift in Sources */,
+				189EDA112B78D358007E8780 /* PentagonManagerView.swift in Sources */,
+				184219752B748BE20007F401 /* egQuizApp.swift in Sources */,
+				1806B6052D313C4900149CFC /* TopView.swift in Sources */,
+				1806B6012D313C4900149CFC /* GachaManagerView.swift in Sources */,
+				1806B5FA2D313C4900149CFC /* CustomScrollView.swift in Sources */,
+				1806B60C2D313C4900149CFC /* TimerView.swift in Sources */,
+				180CB3542B765FA80027CE3B /* QuizTangoJun1List.swift in Sources */,
+				1806B6042D313C4900149CFC /* GachaAnimationView.swift in Sources */,
+				1806B6002D313C4900149CFC /* RewardTimesModal.swift in Sources */,
+				180CD0172B7A33BA00A1D335 /* QuizTangoTabManager.swift in Sources */,
+				1806B6112D316A9200149CFC /* CoinModalView.swift in Sources */,
+				1806B6152D316AF200149CFC /* PreView.swift in Sources */,
+				180CB36C2B7676E40027CE3B /* QuizToeicJukugoBeginnerList.swift in Sources */,
+				180CB3502B7656F00027CE3B /* QuizTangoJun2List.swift in Sources */,
+				1806B5E92D313C4900149CFC /* ModalReturnView.swift in Sources */,
+				1806B5EF2D313C4900149CFC /* ModalExplanationView.swift in Sources */,
+				1806B6132D316AC800149CFC /* BarChartView.swift in Sources */,
+				180CB3662B766F550027CE3B /* QuizToeicTangoBeginnerList.swift in Sources */,
+				1806B5F72D313C4900149CFC /* QuizResultView.swift in Sources */,
+				1806B5EE2D313C4900149CFC /* PentagonItShape.swift in Sources */,
+				1806B6062D313C4900149CFC /* SignUp.swift in Sources */,
+				1806B5EC2D313C4900149CFC /* RewardModalView.swift in Sources */,
+				1806B5F32D313C4900149CFC /* Interstitial.swift in Sources */,
+				180CB3602B766D330027CE3B /* QuizBunpouBeginnerList.swift in Sources */,
+				1806B5FD2D313C4900149CFC /* HelpView1.swift in Sources */,
+				189EDA0F2B78D14D007E8780 /* PentangonBunpouShape.swift in Sources */,
+				189F94E82D320F7D0066E6CF /* StampAnimationView.swift in Sources */,
+				180CB37C2B788AC40027CE3B /* QuizIncorrectJukugoAnswerListView.swift in Sources */,
+				189F94EA2D321AAB0066E6CF /* ReviewView.swift in Sources */,
+				189EDA0D2B78CE83007E8780 /* PentagonJukugoShape.swift in Sources */,
+				1806B5EB2D313C4900149CFC /* AnswerSelectionView.swift in Sources */,
+				1806B5F12D313C4900149CFC /* StoreKitView.swift in Sources */,
+				180CB3782B7729A10027CE3B /* QuizBunpouManager.swift in Sources */,
+				1806B5FE2D313C4900149CFC /* TermsOfServiceView.swift in Sources */,
+				180CB3522B765C410027CE3B /* QuizTango2List.swift in Sources */,
+				1806B5F52D313C4900149CFC /* IconPickerView.swift in Sources */,
+				1806B60A2D313C4900149CFC /* ModalView.swift in Sources */,
+				189F94E22D320CB30066E6CF /* ContenView.swift in Sources */,
+				180CB3742B7722B20027CE3B /* QuizTangoManager.swift in Sources */,
+				1806B5FB2D313C4900149CFC /* QuizView.swift in Sources */,
+				180CB36A2B7675E60027CE3B /* QuizToeicTangoAdvancedList.swift in Sources */,
+				189F94F02D321B5A0066E6CF /* TutorialModalView.swift in Sources */,
+				1806B6082D313C4900149CFC /* IllustratedView.swift in Sources */,
+				180CB36E2B76774D0027CE3B /* QuizToeicJukugoIntermediateList.swift in Sources */,
+				1806B5F82D313C4900149CFC /* RootView.swift in Sources */,
+				180CB3642B766EBF0027CE3B /* QuizBunpouAdvancedList.swift in Sources */,
+				183211532B959D7C0064F10A /* ContactView.swift in Sources */,
+				189F94EC2D321AE70066E6CF /* HelpModalView.swift in Sources */,
+				189F94E42D320D3E0066E6CF /* SplashScreenView.swift in Sources */,
+				1806B6092D313C4900149CFC /* LoginModalView.swift in Sources */,
+				1806B5F92D313C4900149CFC /* SubscriptionView.swift in Sources */,
+				1806B5EA2D313C4900149CFC /* AvatarListView.swift in Sources */,
+				180CB35E2B766B4A0027CE3B /* QuizJukugoJun1List.swift in Sources */,
+				1806B5FF2D313C4900149CFC /* AuthManager.swift in Sources */,
+				1806B6032D313C4900149CFC /* LoadingView.swift in Sources */,
+				1806B60B2D313C4900149CFC /* AudioManager.swift in Sources */,
+				180CB3722B7687880027CE3B /* QuizManagerView.swift in Sources */,
+				180CB3682B7675010027CE3B /* QuizToeicTangoIntermediateList.swift in Sources */,
+				180CB3562B76634B0027CE3B /* QuizTango1List.swift in Sources */,
+				1806B6022D313C4900149CFC /* PrivacyView.swift in Sources */,
+				1806B5FC2D313C4900149CFC /* GachaView.swift in Sources */,
+				189F94E62D320D880066E6CF /* ProgressExpBar.swift in Sources */,
+				1806B5F42D313C4900149CFC /* RankingView.swift in Sources */,
+				180CB3702B7677FC0027CE3B /* QuizToeicJukugoAdvancedList.swift in Sources */,
+				1806B60D2D313C4900149CFC /* ModalTitleView.swift in Sources */,
+				1806B5F02D313C4900149CFC /* RewardView.swift in Sources */,
+				1806B60F2D31670800149CFC /* PentagonTangoShape.swift in Sources */,
+				189F94EE2D321B120066E6CF /* ChangeNameView.swift in Sources */,
+				180CB3582B7665BA0027CE3B /* QuizJukugo3List.swift in Sources */,
+				180CB34E2B76441A0027CE3B /* TittlesView.swift in Sources */,
+				189F94DE2D320A6F0066E6CF /* SubModalView.swift in Sources */,
+				1806B5F62D313C4900149CFC /* Banner.swift in Sources */,
+				180CB37E2B788B710027CE3B /* QuizIncorrectBunpouAnswerListView.swift in Sources */,
+				180CB3622B766E0B0027CE3B /* QuizBunpouIntermediateList.swift in Sources */,
+				1806B61B2D32062A00149CFC /* QuizTango3List.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1842197E2B748BE40007F401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184219872B748BE40007F401 /* egQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184219882B748BE40007F401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184219912B748BE40007F401 /* egQuizUITests.swift in Sources */,
+				184219932B748BE40007F401 /* egQuizUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184219842B748BE40007F401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184219702B748BE20007F401 /* egQuiz */;
+			targetProxy = 184219832B748BE40007F401 /* PBXContainerItemProxy */;
+		};
+		1842198E2B748BE40007F401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184219702B748BE20007F401 /* egQuiz */;
+			targetProxy = 1842198D2B748BE40007F401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		184219942B748BE40007F401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184219952B748BE40007F401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		184219972B748BE40007F401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D398AFF1813715BAE43E5BE6 /* Pods-egQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = egQuiz/egQuiz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3;
+				DEVELOPMENT_ASSET_PATHS = "\"egQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = egQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "英語クエスト";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.egQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184219982B748BE40007F401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1F0F58BD1201E2101FCC07 /* Pods-egQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = egQuiz/egQuiz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3;
+				DEVELOPMENT_ASSET_PATHS = "\"egQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = egQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "英語クエスト";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.egQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1842199A2B748BE40007F401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.egQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/egQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/egQuiz";
+			};
+			name = Debug;
+		};
+		1842199B2B748BE40007F401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.egQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/egQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/egQuiz";
+			};
+			name = Release;
+		};
+		1842199D2B748BE40007F401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.egQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = egQuiz;
+			};
+			name = Debug;
+		};
+		1842199E2B748BE40007F401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.egQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = egQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1842196C2B748BE20007F401 /* Build configuration list for PBXProject "egQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184219942B748BE40007F401 /* Debug */,
+				184219952B748BE40007F401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184219962B748BE40007F401 /* Build configuration list for PBXNativeTarget "egQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184219972B748BE40007F401 /* Debug */,
+				184219982B748BE40007F401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184219992B748BE40007F401 /* Build configuration list for PBXNativeTarget "egQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1842199A2B748BE40007F401 /* Debug */,
+				1842199B2B748BE40007F401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1842199C2B748BE40007F401 /* Build configuration list for PBXNativeTarget "egQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1842199D2B748BE40007F401 /* Debug */,
+				1842199E2B748BE40007F401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18421B1F2B749A390007F401 /* XCRemoteSwiftPackageReference "AppVersionMonitorSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SNQ-2001/AppVersionMonitorSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18421B202B749A390007F401 /* AppVersionMonitorSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18421B1F2B749A390007F401 /* XCRemoteSwiftPackageReference "AppVersionMonitorSwiftUI" */;
+			productName = AppVersionMonitorSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 184219692B748BE20007F401 /* Project object */;
+}
