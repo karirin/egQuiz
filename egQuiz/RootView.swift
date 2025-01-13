@@ -15,7 +15,7 @@ struct RootView: View {
     @State private var isUserExists: Bool? = nil
     @Environment(\.requestReview) var requestReview
     @Environment(\.scenePhase) var scenePhase
-//    let viewModel = PositionViewModel.shared
+    let viewModel = PositionViewModel.shared
 
     var body: some View {
         Group {

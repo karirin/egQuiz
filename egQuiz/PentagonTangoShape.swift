@@ -114,7 +114,7 @@ enum QuizTangoLevel {
 
 extension QuizTangoLevel: CaseIterable {
     static var allCases: [QuizTangoLevel] {
-        return [.Jukugo3,.JukugoJun2,.Jukugo2,.JukugoJun1,.ToeicJukugoBeginner,.ToeicJukugoIntermediate,.ToeicJukugoAdvanced]
+        return [.Tango3,.TangoJun2,.Tango2,.TangoJun1,.Tango1,.ToeicTangoBeginner,.ToeicTangoIntermediate,.ToeicTangoAdvanced]
 //                ,.Jukugo3,.JukugoJun2,.Jukugo2,.JukugoJun1,.ToeicJukugoBeginner,.ToeicJukugoIntermediate,.ToeicJukugoAdvanced, .BunpouBeginner,.BunpouIntermediate,.BunpouAdvanced]
         // 除外したいケースをここで除外
     }
@@ -126,7 +126,7 @@ struct PentagonTangoGraphShape: Shape {
     func path(in rect: CGRect) -> Path {
         let center = CGPoint(x: rect.midX, y: rect.midY)
         let baseRadius = min(rect.width, rect.height) / 2 - 10
-        let angle = (2 * CGFloat.pi) / 7
+        let angle = (2 * CGFloat.pi) / 8
         var path = Path()
 
         for (i, level) in QuizTangoLevel.allCases.enumerated() {
@@ -177,7 +177,7 @@ struct PentagonGraphTangoBackgroundShape: Shape {
     func path(in rect: CGRect) -> Path {
         let center = CGPoint(x: rect.midX, y: rect.midY)
         let radius = min(rect.width, rect.height) / 2 - 10
-        let angle = (2 * CGFloat.pi) / 7
+        let angle = (2 * CGFloat.pi) / 8
 
         // ここから追加
         let scale: [CGFloat] = [0.1,0.2,0.3, 0.4,0.5, 0.6,0.7, 0.8,0.9, 1.0]
@@ -190,7 +190,7 @@ struct PentagonGraphTangoBackgroundShape: Shape {
         }
         // ここまで追加
 
-        for i in 0..<7 {
+        for i in 0..<8 {
             let x = center.x + radius * cos(angle * CGFloat(i) - .pi / 2)
             let y = center.y + radius * sin(angle * CGFloat(i) - .pi / 2)
             path.move(to: center)
@@ -263,7 +263,7 @@ struct PentagonTangoView: View {
     @Binding var flag: Bool
     var body: some View {
         VStack{
-            PentagonTangoGraphView(userId: authManager.currentUserId!, labels: ["9", "10", "11", "12", "13", "14","15"])
+            PentagonTangoGraphView(userId: authManager.currentUserId!, labels: ["1", "2", "3", "4", "5", "6","7","8"])
                 .padding(.top,30)
             VStack(spacing: 0) {
                 HStack{
@@ -322,7 +322,7 @@ struct PentagonTangoShape_Previews: PreviewProvider {
     static var previews: some View {
 //        PentagonGraphView(userId: "VQ0MZw8snHSY23rOXbhN9wxORF42", labels: ["初級", "中級", "上級", "ネットワーク", "セキュリティ","データベース", "デイリー", "神級", "初級(タイムアタック)", "中級(タイムアタック)", "上級(タイムアタック)"])
 //        PentagonGraphView(userId: "VQ0MZw8snHSY23rOXbhN9wxORF42", labels: ["初級", "中級", "上級", "神級", "ネットワーク", "セキュリティ","データベース"])
-        PentagonJukugoView(authManager: dummyAuthManager, flag: .constant(false))
+        PentagonTangoView(authManager: dummyAuthManager, flag: .constant(false))
     }
 }
 

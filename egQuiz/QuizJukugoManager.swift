@@ -278,6 +278,7 @@ struct QuizJukugoManagerView: View {
                                         }
                         }
                     }
+                    .padding(.top)
 //                    .padding(.top,-30)
 //                    .overlay(
 //                        ZStack {

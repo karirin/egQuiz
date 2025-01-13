@@ -26,7 +26,7 @@ struct QuizManagerView: View {
                     TabView(selection: $selectedTab,
                                         content: {
                         QuizTangoManagerView(isPresenting: .constant(false))
-                            .padding(.top)
+//                            .padding(.top)
                                         .tag(0)
                         QuizJukugoManagerView(isPresenting: .constant(false))
 //                            .padding(.top)

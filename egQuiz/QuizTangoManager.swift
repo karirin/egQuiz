@@ -299,7 +299,7 @@ struct QuizTangoManagerView: View {
                         }
                         .padding(.top)
                     }
-                    .padding(.top,-30)
+//                    .padding(.top,-20)
 //                    .overlay(
 //                        ZStack {
 //                            Spacer()
@@ -351,7 +351,7 @@ struct QuizTangoManagerView: View {
                             .overlay(
                                 RoundedRectangle(cornerRadius: 20, style: .continuous)
                                     .frame(width: buttonRect.width, height: buttonRect.height)
-                                    .position(x: buttonRect.midX, y: isSmallDevice() ? buttonRect.midY - 130 : buttonRect.midY - 180)
+                                    .position(x: buttonRect.midX, y: isSmallDevice() ? buttonRect.midY - 130 : buttonRect.midY - 165)
                                     .blendMode(.destinationOut)
                             )
     //                            .padding(.horizontal, -10)

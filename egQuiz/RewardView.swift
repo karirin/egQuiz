@@ -13,7 +13,7 @@ class Reward: NSObject, GADFullScreenContentDelegate, ObservableObject {
     @Published var rewardEarned: Bool = false // この行を追加
     var rewardedAd: GADRewardedAd?
     @ObservedObject var authManager = AuthManager.shared
-//    @ObservedObject var viewModel: PositionViewModel = PositionViewModel.shared
+    @ObservedObject var viewModel: PositionViewModel = PositionViewModel.shared
 
     override init() {
         super.init()
@@ -73,7 +73,7 @@ class Reward: NSObject, GADFullScreenContentDelegate, ObservableObject {
             if let ad = rewardedAd {
                 ad.present(fromRootViewController: root, userDidEarnRewardHandler: { [self] in
                     print("😍: 報酬を獲得しました")
-//                    viewModel.recoverStamina(by: 30)
+                    viewModel.recoverStamina(by: 30)
                     self.LoadReward()
                     self.rewardEarned = true
                 })

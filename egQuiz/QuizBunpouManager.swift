@@ -198,6 +198,7 @@ struct QuizBunpouManagerView: View {
                                 QuizBunpouAdvancedList(isPresenting: $isPresentingQuizAdvanced)
                                         }
                         }
+                        .padding(.top)
                     }
 //                    .padding(.top,-30)
 //                    .overlay(

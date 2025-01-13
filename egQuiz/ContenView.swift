@@ -310,7 +310,7 @@ struct ContentView: View {
                                 VStack{
                                     Group{
                                         NavigationLink("", destination: QuizManagerView(viewModel: RankingViewModel(), audioManager: audioManager).navigationBarBackButtonHidden(true), isActive: $isPresentingQuizList)
-//                                        NavigationLink("", destination: StoryView(isReturnActive: .constant(true), isPresented: $isPresentingTraining).navigationBarBackButtonHidden(true), isActive: $isPresentingTraining)
+                                        NavigationLink("", destination: StoryView(isReturnActive: .constant(true), isPresented: $isPresentingTraining).navigationBarBackButtonHidden(true), isActive: $isPresentingTraining)
                                         NavigationLink("", destination: GachaView(), isActive: $isPresentingGachaView)
                                         
                                         NavigationLink("", destination: IllustratedView(isPresenting: .constant(false)).navigationBarBackButtonHidden(true), isActive: $isPresentingIllustratedView)

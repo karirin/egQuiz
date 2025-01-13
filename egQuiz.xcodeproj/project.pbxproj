@@ -17,10 +17,8 @@
 		1806B5F02D313C4900149CFC /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CB2D313C4800149CFC /* RewardView.swift */; };
 		1806B5F12D313C4900149CFC /* StoreKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CC2D313C4800149CFC /* StoreKitView.swift */; };
 		1806B5F22D313C4900149CFC /* GraphManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CD2D313C4800149CFC /* GraphManagerView.swift */; };
-		1806B5F32D313C4900149CFC /* Interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CE2D313C4800149CFC /* Interstitial.swift */; };
 		1806B5F42D313C4900149CFC /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5CF2D313C4800149CFC /* RankingView.swift */; };
 		1806B5F52D313C4900149CFC /* IconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D02D313C4800149CFC /* IconPickerView.swift */; };
-		1806B5F62D313C4900149CFC /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D12D313C4800149CFC /* Banner.swift */; };
 		1806B5F72D313C4900149CFC /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D22D313C4800149CFC /* QuizResultView.swift */; };
 		1806B5F82D313C4900149CFC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D32D313C4800149CFC /* RootView.swift */; };
 		1806B5F92D313C4900149CFC /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5D42D313C4800149CFC /* SubscriptionView.swift */; };
@@ -109,7 +107,24 @@
 		189F94EC2D321AE70066E6CF /* HelpModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94EB2D321AE70066E6CF /* HelpModalView.swift */; };
 		189F94EE2D321B120066E6CF /* ChangeNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94ED2D321B120066E6CF /* ChangeNameView.swift */; };
 		189F94F02D321B5A0066E6CF /* TutorialModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94EF2D321B5A0066E6CF /* TutorialModalView.swift */; };
-		189F94F22D33664F0066E6CF /* InterstitialStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94F12D33664F0066E6CF /* InterstitialStory.swift */; };
+		189F95002D33C2100066E6CF /* StorySutaminaModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94F32D33C2100066E6CF /* StorySutaminaModalView.swift */; };
+		189F95012D33C2100066E6CF /* StoryUserModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94F42D33C2100066E6CF /* StoryUserModalView.swift */; };
+		189F95022D33C2100066E6CF /* StoryUserQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94F52D33C2100066E6CF /* StoryUserQuizView.swift */; };
+		189F95032D33C2100066E6CF /* StoryMonsterModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94F62D33C2100066E6CF /* StoryMonsterModalView.swift */; };
+		189F95042D33C2100066E6CF /* StoryJukugoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94F72D33C2100066E6CF /* StoryJukugoListView.swift */; };
+		189F95062D33C2100066E6CF /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94F92D33C2100066E6CF /* StoryView.swift */; };
+		189F95072D33C2100066E6CF /* StoryQuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94FA2D33C2100066E6CF /* StoryQuizResultView.swift */; };
+		189F95092D33C2100066E6CF /* StoryTangoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94FC2D33C2100066E6CF /* StoryTangoListView.swift */; };
+		189F950A2D33C2100066E6CF /* StoryUserQuizListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94FD2D33C2100066E6CF /* StoryUserQuizListView.swift */; };
+		189F950B2D33C2100066E6CF /* StoryCoinModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94FE2D33C2100066E6CF /* StoryCoinModalView.swift */; };
+		189F950C2D33C2100066E6CF /* StoryQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F94FF2D33C2100066E6CF /* StoryQuizView.swift */; };
+		189F950E2D33C4150066E6CF /* RankModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F950D2D33C4150066E6CF /* RankModalView.swift */; };
+		189F95102D33C97F0066E6CF /* ProgressStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F950F2D33C97F0066E6CF /* ProgressStoryView.swift */; };
+		189F95122D33C9A30066E6CF /* TutorialStoryModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F95112D33C9A30066E6CF /* TutorialStoryModalView.swift */; };
+		189F95142D33C9C40066E6CF /* HelpStoryModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F95132D33C9C40066E6CF /* HelpStoryModalView.swift */; };
+		189F95162D35505A0066E6CF /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F95152D35505A0066E6CF /* BannerView.swift */; };
+		189F95182D3550FA0066E6CF /* interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F95172D3550FA0066E6CF /* interstitial.swift */; };
+		189F951A2D3551340066E6CF /* InterstitialStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F95192D3551340066E6CF /* InterstitialStory.swift */; };
 		189FEA362B94EA86005C91B9 /* SettingITView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FEA352B94EA86005C91B9 /* SettingITView.swift */; };
 		5B9F78F661C4F84303D4FFE7 /* Pods_egQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91A26AE2AA111E1625FEBAF /* Pods_egQuiz.framework */; };
 /* End PBXBuildFile section */
@@ -142,10 +157,8 @@
 		1806B5CB2D313C4800149CFC /* RewardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
 		1806B5CC2D313C4800149CFC /* StoreKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitView.swift; sourceTree = "<group>"; };
 		1806B5CD2D313C4800149CFC /* GraphManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphManagerView.swift; sourceTree = "<group>"; };
-		1806B5CE2D313C4800149CFC /* Interstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interstitial.swift; sourceTree = "<group>"; };
 		1806B5CF2D313C4800149CFC /* RankingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
 		1806B5D02D313C4800149CFC /* IconPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerView.swift; sourceTree = "<group>"; };
-		1806B5D12D313C4800149CFC /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		1806B5D22D313C4800149CFC /* QuizResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
 		1806B5D32D313C4800149CFC /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		1806B5D42D313C4800149CFC /* SubscriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
@@ -240,7 +253,24 @@
 		189F94EB2D321AE70066E6CF /* HelpModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpModalView.swift; sourceTree = "<group>"; };
 		189F94ED2D321B120066E6CF /* ChangeNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNameView.swift; sourceTree = "<group>"; };
 		189F94EF2D321B5A0066E6CF /* TutorialModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialModalView.swift; sourceTree = "<group>"; };
-		189F94F12D33664F0066E6CF /* InterstitialStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialStory.swift; sourceTree = "<group>"; };
+		189F94F32D33C2100066E6CF /* StorySutaminaModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorySutaminaModalView.swift; sourceTree = "<group>"; };
+		189F94F42D33C2100066E6CF /* StoryUserModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryUserModalView.swift; sourceTree = "<group>"; };
+		189F94F52D33C2100066E6CF /* StoryUserQuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryUserQuizView.swift; sourceTree = "<group>"; };
+		189F94F62D33C2100066E6CF /* StoryMonsterModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryMonsterModalView.swift; sourceTree = "<group>"; };
+		189F94F72D33C2100066E6CF /* StoryJukugoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryJukugoListView.swift; sourceTree = "<group>"; };
+		189F94F92D33C2100066E6CF /* StoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		189F94FA2D33C2100066E6CF /* StoryQuizResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryQuizResultView.swift; sourceTree = "<group>"; };
+		189F94FC2D33C2100066E6CF /* StoryTangoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTangoListView.swift; sourceTree = "<group>"; };
+		189F94FD2D33C2100066E6CF /* StoryUserQuizListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryUserQuizListView.swift; sourceTree = "<group>"; };
+		189F94FE2D33C2100066E6CF /* StoryCoinModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCoinModalView.swift; sourceTree = "<group>"; };
+		189F94FF2D33C2100066E6CF /* StoryQuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryQuizView.swift; sourceTree = "<group>"; };
+		189F950D2D33C4150066E6CF /* RankModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankModalView.swift; sourceTree = "<group>"; };
+		189F950F2D33C97F0066E6CF /* ProgressStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStoryView.swift; sourceTree = "<group>"; };
+		189F95112D33C9A30066E6CF /* TutorialStoryModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialStoryModalView.swift; sourceTree = "<group>"; };
+		189F95132D33C9C40066E6CF /* HelpStoryModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpStoryModalView.swift; sourceTree = "<group>"; };
+		189F95152D35505A0066E6CF /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		189F95172D3550FA0066E6CF /* interstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interstitial.swift; sourceTree = "<group>"; };
+		189F95192D3551340066E6CF /* InterstitialStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialStory.swift; sourceTree = "<group>"; };
 		189FEA352B94EA86005C91B9 /* SettingITView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingITView.swift; sourceTree = "<group>"; };
 		A91A26AE2AA111E1625FEBAF /* Pods_egQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_egQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1F0F58BD1201E2101FCC07 /* Pods-egQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-egQuiz.release.xcconfig"; path = "Target Support Files/Pods-egQuiz/Pods-egQuiz.release.xcconfig"; sourceTree = "<group>"; };
@@ -311,7 +341,7 @@
 				1806B5C62D313C4800149CFC /* AnswerSelectionView.swift */,
 				1806B5DA2D313C4800149CFC /* AuthManager.swift */,
 				1806B5C52D313C4800149CFC /* AvatarListView.swift */,
-				1806B5D12D313C4800149CFC /* Banner.swift */,
+				189F95152D35505A0066E6CF /* BannerView.swift */,
 				1806B5D52D313C4800149CFC /* CustomScrollView.swift */,
 				1806B5DF2D313C4800149CFC /* GachaAnimationView.swift */,
 				1806B5DC2D313C4800149CFC /* GachaManagerView.swift */,
@@ -320,8 +350,23 @@
 				1806B5D82D313C4800149CFC /* HelpView1.swift */,
 				1806B5D02D313C4800149CFC /* IconPickerView.swift */,
 				1806B5E32D313C4800149CFC /* IllustratedView.swift */,
-				1806B5CE2D313C4800149CFC /* Interstitial.swift */,
-				189F94F12D33664F0066E6CF /* InterstitialStory.swift */,
+				189F95172D3550FA0066E6CF /* interstitial.swift */,
+				189F95192D3551340066E6CF /* InterstitialStory.swift */,
+				189F95132D33C9C40066E6CF /* HelpStoryModalView.swift */,
+				189F95112D33C9A30066E6CF /* TutorialStoryModalView.swift */,
+				189F950F2D33C97F0066E6CF /* ProgressStoryView.swift */,
+				189F950D2D33C4150066E6CF /* RankModalView.swift */,
+				189F94FE2D33C2100066E6CF /* StoryCoinModalView.swift */,
+				189F94F72D33C2100066E6CF /* StoryJukugoListView.swift */,
+				189F94FC2D33C2100066E6CF /* StoryTangoListView.swift */,
+				189F94F62D33C2100066E6CF /* StoryMonsterModalView.swift */,
+				189F94FA2D33C2100066E6CF /* StoryQuizResultView.swift */,
+				189F94FF2D33C2100066E6CF /* StoryQuizView.swift */,
+				189F94F32D33C2100066E6CF /* StorySutaminaModalView.swift */,
+				189F94F42D33C2100066E6CF /* StoryUserModalView.swift */,
+				189F94FD2D33C2100066E6CF /* StoryUserQuizListView.swift */,
+				189F94F52D33C2100066E6CF /* StoryUserQuizView.swift */,
+				189F94F92D33C2100066E6CF /* StoryView.swift */,
 				1806B5DE2D313C4800149CFC /* LoadingView.swift */,
 				1806B5E42D313C4800149CFC /* LoginModalView.swift */,
 				1806B5CA2D313C4800149CFC /* ModalExplanationView.swift */,
@@ -642,9 +687,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189F95162D35505A0066E6CF /* BannerView.swift in Sources */,
 				189FEA362B94EA86005C91B9 /* SettingITView.swift in Sources */,
 				1806B5ED2D313C4900149CFC /* RateManager.swift in Sources */,
 				1806B5F22D313C4900149CFC /* GraphManagerView.swift in Sources */,
+				189F95102D33C97F0066E6CF /* ProgressStoryView.swift in Sources */,
 				1806B6072D313C4900149CFC /* ProgressBar3.swift in Sources */,
 				1806B6192D3203C400149CFC /* QuizIncorrectTangoAnswerListView.swift in Sources */,
 				180CB37A2B778D740027CE3B /* QuizManagerTabView.swift in Sources */,
@@ -654,27 +701,32 @@
 				189EDA112B78D358007E8780 /* PentagonManagerView.swift in Sources */,
 				184219752B748BE20007F401 /* egQuizApp.swift in Sources */,
 				1806B6052D313C4900149CFC /* TopView.swift in Sources */,
+				189F95142D33C9C40066E6CF /* HelpStoryModalView.swift in Sources */,
 				1806B6012D313C4900149CFC /* GachaManagerView.swift in Sources */,
 				1806B5FA2D313C4900149CFC /* CustomScrollView.swift in Sources */,
 				1806B60C2D313C4900149CFC /* TimerView.swift in Sources */,
 				180CB3542B765FA80027CE3B /* QuizTangoJun1List.swift in Sources */,
-				189F94F22D33664F0066E6CF /* InterstitialStory.swift in Sources */,
+				189F95042D33C2100066E6CF /* StoryJukugoListView.swift in Sources */,
+				189F95182D3550FA0066E6CF /* interstitial.swift in Sources */,
 				1806B6042D313C4900149CFC /* GachaAnimationView.swift in Sources */,
 				1806B6002D313C4900149CFC /* RewardTimesModal.swift in Sources */,
 				180CD0172B7A33BA00A1D335 /* QuizTangoTabManager.swift in Sources */,
+				189F950A2D33C2100066E6CF /* StoryUserQuizListView.swift in Sources */,
 				1806B6112D316A9200149CFC /* CoinModalView.swift in Sources */,
 				1806B6152D316AF200149CFC /* PreView.swift in Sources */,
 				180CB36C2B7676E40027CE3B /* QuizToeicJukugoBeginnerList.swift in Sources */,
 				180CB3502B7656F00027CE3B /* QuizTangoJun2List.swift in Sources */,
 				1806B5E92D313C4900149CFC /* ModalReturnView.swift in Sources */,
 				1806B5EF2D313C4900149CFC /* ModalExplanationView.swift in Sources */,
+				189F951A2D3551340066E6CF /* InterstitialStory.swift in Sources */,
+				189F950C2D33C2100066E6CF /* StoryQuizView.swift in Sources */,
 				1806B6132D316AC800149CFC /* BarChartView.swift in Sources */,
 				180CB3662B766F550027CE3B /* QuizToeicTangoBeginnerList.swift in Sources */,
+				189F95072D33C2100066E6CF /* StoryQuizResultView.swift in Sources */,
 				1806B5F72D313C4900149CFC /* QuizResultView.swift in Sources */,
 				1806B5EE2D313C4900149CFC /* PentagonItShape.swift in Sources */,
 				1806B6062D313C4900149CFC /* SignUp.swift in Sources */,
 				1806B5EC2D313C4900149CFC /* RewardModalView.swift in Sources */,
-				1806B5F32D313C4900149CFC /* Interstitial.swift in Sources */,
 				180CB3602B766D330027CE3B /* QuizBunpouBeginnerList.swift in Sources */,
 				1806B5FD2D313C4900149CFC /* HelpView1.swift in Sources */,
 				189EDA0F2B78D14D007E8780 /* PentangonBunpouShape.swift in Sources */,
@@ -687,7 +739,11 @@
 				180CB3782B7729A10027CE3B /* QuizBunpouManager.swift in Sources */,
 				1806B5FE2D313C4900149CFC /* TermsOfServiceView.swift in Sources */,
 				180CB3522B765C410027CE3B /* QuizTango2List.swift in Sources */,
+				189F95092D33C2100066E6CF /* StoryTangoListView.swift in Sources */,
 				1806B5F52D313C4900149CFC /* IconPickerView.swift in Sources */,
+				189F95122D33C9A30066E6CF /* TutorialStoryModalView.swift in Sources */,
+				189F950B2D33C2100066E6CF /* StoryCoinModalView.swift in Sources */,
+				189F95022D33C2100066E6CF /* StoryUserQuizView.swift in Sources */,
 				1806B60A2D313C4900149CFC /* ModalView.swift in Sources */,
 				189F94E22D320CB30066E6CF /* ContenView.swift in Sources */,
 				180CB3742B7722B20027CE3B /* QuizTangoManager.swift in Sources */,
@@ -698,11 +754,15 @@
 				180CB36E2B76774D0027CE3B /* QuizToeicJukugoIntermediateList.swift in Sources */,
 				1806B5F82D313C4900149CFC /* RootView.swift in Sources */,
 				180CB3642B766EBF0027CE3B /* QuizBunpouAdvancedList.swift in Sources */,
+				189F950E2D33C4150066E6CF /* RankModalView.swift in Sources */,
+				189F95012D33C2100066E6CF /* StoryUserModalView.swift in Sources */,
 				183211532B959D7C0064F10A /* ContactView.swift in Sources */,
 				189F94EC2D321AE70066E6CF /* HelpModalView.swift in Sources */,
+				189F95062D33C2100066E6CF /* StoryView.swift in Sources */,
 				189F94E42D320D3E0066E6CF /* SplashScreenView.swift in Sources */,
 				1806B6092D313C4900149CFC /* LoginModalView.swift in Sources */,
 				1806B5F92D313C4900149CFC /* SubscriptionView.swift in Sources */,
+				189F95032D33C2100066E6CF /* StoryMonsterModalView.swift in Sources */,
 				1806B5EA2D313C4900149CFC /* AvatarListView.swift in Sources */,
 				180CB35E2B766B4A0027CE3B /* QuizJukugoJun1List.swift in Sources */,
 				1806B5FF2D313C4900149CFC /* AuthManager.swift in Sources */,
@@ -720,10 +780,10 @@
 				1806B5F02D313C4900149CFC /* RewardView.swift in Sources */,
 				1806B60F2D31670800149CFC /* PentagonTangoShape.swift in Sources */,
 				189F94EE2D321B120066E6CF /* ChangeNameView.swift in Sources */,
+				189F95002D33C2100066E6CF /* StorySutaminaModalView.swift in Sources */,
 				180CB3582B7665BA0027CE3B /* QuizJukugo3List.swift in Sources */,
 				180CB34E2B76441A0027CE3B /* TittlesView.swift in Sources */,
 				189F94DE2D320A6F0066E6CF /* SubModalView.swift in Sources */,
-				1806B5F62D313C4900149CFC /* Banner.swift in Sources */,
 				180CB37E2B788B710027CE3B /* QuizIncorrectBunpouAnswerListView.swift in Sources */,
 				180CB3622B766E0B0027CE3B /* QuizBunpouIntermediateList.swift in Sources */,
 				1806B61B2D32062A00149CFC /* QuizTango3List.swift in Sources */,
@@ -885,7 +945,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = egQuiz/egQuiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3;
+				CURRENT_PROJECT_VERSION = 1.4;
 				DEVELOPMENT_ASSET_PATHS = "\"egQuiz/Preview Content\"";
 				DEVELOPMENT_TEAM = F3XS565TSX;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -908,7 +968,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.egQuiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -927,7 +987,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = egQuiz/egQuiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3;
+				CURRENT_PROJECT_VERSION = 1.4;
 				DEVELOPMENT_ASSET_PATHS = "\"egQuiz/Preview Content\"";
 				DEVELOPMENT_TEAM = F3XS565TSX;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -950,7 +1010,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.egQuiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
